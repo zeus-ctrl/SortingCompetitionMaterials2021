@@ -98,13 +98,13 @@ public class Group5 {
 
 		@Override
 		public int compare(Integer n1, Integer n2) {
-			int digits1 = Helper.numBinaryOnes(n1);
-			int digits2 = Helper.numBinaryOnes(n2);
+			int digits1 = Group5Helper.numBinaryOnes(n1);
+			int digits2 = Group5Helper.numBinaryOnes(n2);
 			
 			if (digits1 != digits2) return (digits1 - digits2);
 
-			int lengthSubstring1 = Helper.lengthLongestRepeatedSubstring(Integer.toBinaryString(n1));
-			int lengthSubstring2 = Helper.lengthLongestRepeatedSubstring(Integer.toBinaryString(n2));
+			int lengthSubstring1 = Group5Helper.lengthLongestRepeatedSubstring(Integer.toBinaryString(n1));
+			int lengthSubstring2 = Group5Helper.lengthLongestRepeatedSubstring(Integer.toBinaryString(n2));
 
 			
 			// executed only of the number of 1s is the same
