@@ -1,6 +1,6 @@
 //import java.util.HashMap;
 
-public class Group5Helper {
+public class Helper5 {
 
 	public static void main(String[] args) {
 		// Testing helper methods
